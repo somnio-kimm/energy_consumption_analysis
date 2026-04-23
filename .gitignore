@@ -1,0 +1,40 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# uv
+uv.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# IDE
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
