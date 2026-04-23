@@ -1,0 +1,15 @@
+# Each line is a file pattern followed by one or more owners.
+# Patterns match paths relative to the repo root.
+# Later matches take precedence over earlier ones.
+# See: https://docs.github.com/en/repositories/managing-your-repositories-settings-and-customizations/about-code-owners
+
+# Default owners (project contributors)
+* @somnio-kimm @GUKHOJeong @hyungeunkk
+
+# Notebooks and datasets
+*.ipynb @somnio-kimm @GUKHOJeong @hyungeunkk
+/data/  @somnio-kimm @GUKHOJeong @hyungeunkk
+/docs/  @somnio-kimm @GUKHOJeong @hyungeunkk
+
+# CI / meta
+/.github/ @somnio-kimm
